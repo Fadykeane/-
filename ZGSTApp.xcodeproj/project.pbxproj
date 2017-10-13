@@ -1,0 +1,1196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0507E3101CE6B7D800F9EAC6 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E3031CE6B7D800F9EAC6 /* TAAbstractDotView.m */; };
+		0507E3111CE6B7D800F9EAC6 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E3051CE6B7D800F9EAC6 /* TAAnimatedDotView.m */; };
+		0507E3121CE6B7D800F9EAC6 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E3071CE6B7D800F9EAC6 /* TADotView.m */; };
+		0507E3131CE6B7D800F9EAC6 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E3091CE6B7D800F9EAC6 /* TAPageControl.m */; };
+		0507E3141CE6B7D800F9EAC6 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E30B1CE6B7D800F9EAC6 /* SDCollectionViewCell.m */; };
+		0507E3151CE6B7D800F9EAC6 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E30D1CE6B7D800F9EAC6 /* SDCycleScrollView.m */; };
+		0507E3161CE6B7D800F9EAC6 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E30F1CE6B7D800F9EAC6 /* UIView+SDExtension.m */; };
+		7D2D0FD67D08EFF3CE80D74F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF893C0870763BFA2E2E19B /* libPods.a */; };
+		DF0866631C3A6A8D0077DF5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0866621C3A6A8D0077DF5A /* SystemConfiguration.framework */; };
+		DF0866651C3A6AF80077DF5A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0866641C3A6AF80077DF5A /* libz.tbd */; };
+		DF0866671C3A6B340077DF5A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0866661C3A6B340077DF5A /* libsqlite3.0.tbd */; };
+		DF0866691C3A6B400077DF5A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0866681C3A6B400077DF5A /* libc++.tbd */; };
+		DF08666E1C3A9E330077DF5A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF08666A1C3A9E330077DF5A /* libWeChatSDK.a */; };
+		DF0866741C3A9ED70077DF5A /* SendMsgToWeChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0866731C3A9ED70077DF5A /* SendMsgToWeChatVC.m */; };
+		DF08AE331C28FF1600046465 /* SecondListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF08AE321C28FF1600046465 /* SecondListViewController.m */; };
+		DF08AE361C29319000046465 /* SellerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF08AE351C29319000046465 /* SellerViewController.m */; };
+		DF08AE3A1C293CDA00046465 /* FoodShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF08AE381C293CDA00046465 /* FoodShowCell.m */; };
+		DF08AE3B1C293CDA00046465 /* FoodShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF08AE391C293CDA00046465 /* FoodShowCell.xib */; };
+		DF16D6D81C30C928008B973A /* WebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF16D6D71C30C928008B973A /* WebViewVC.m */; };
+		DF16D6DB1C30D9FB008B973A /* JoinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF16D6DA1C30D9FB008B973A /* JoinVC.m */; };
+		DF2DD8321C2A3188003F8CD9 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2DD82C1C2A3187003F8CD9 /* MessageViewController.m */; };
+		DF2DD8331C2A3188003F8CD9 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2DD82E1C2A3188003F8CD9 /* ChatViewController.m */; };
+		DF2DD8341C2A3188003F8CD9 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2DD8301C2A3188003F8CD9 /* MessageCell.m */; };
+		DF2DD8351C2A3188003F8CD9 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2DD8311C2A3188003F8CD9 /* MessageCell.xib */; };
+		DF31ADBD1C27F4C80062424F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31ADBC1C27F4C80062424F /* main.m */; };
+		DF31ADC01C27F4C80062424F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31ADBF1C27F4C80062424F /* AppDelegate.m */; };
+		DF31ADC61C27F4C80062424F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF31ADC41C27F4C80062424F /* Main.storyboard */; };
+		DF31ADC91C27F4C80062424F /* ZGSTApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF31ADC71C27F4C80062424F /* ZGSTApp.xcdatamodeld */; };
+		DF31ADCE1C27F4C80062424F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF31ADCC1C27F4C80062424F /* LaunchScreen.storyboard */; };
+		DF31ADD91C27F4C80062424F /* ZGSTAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31ADD81C27F4C80062424F /* ZGSTAppTests.m */; };
+		DF31ADE41C27F4C80062424F /* ZGSTAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31ADE31C27F4C80062424F /* ZGSTAppUITests.m */; };
+		DF31ADF31C27F63D0062424F /* ZGSTController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31ADF21C27F63D0062424F /* ZGSTController.m */; };
+		DF31ADF61C27F9310062424F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31ADF51C27F9310062424F /* HomeViewController.m */; };
+		DF31ADFF1C27F95F0062424F /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31ADFE1C27F95F0062424F /* MoreViewController.m */; };
+		DF31AE081C2811140062424F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF31AE071C2811140062424F /* Assets.xcassets */; };
+		DF31AE0C1C2813880062424F /* NearbySellerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31AE0A1C2813880062424F /* NearbySellerCell.m */; };
+		DF31AE0D1C2813880062424F /* NearbySellerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF31AE0B1C2813880062424F /* NearbySellerCell.xib */; };
+		DF31AE101C281AC20062424F /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31AE0F1C281AC20062424F /* SearchViewController.m */; };
+		DF31AE161C2822740062424F /* OrderForGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31AE121C2822740062424F /* OrderForGoodViewController.m */; };
+		DF31AE211C2823710062424F /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31AE1F1C2823710062424F /* OrderCell.m */; };
+		DF31AE221C2823710062424F /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF31AE201C2823710062424F /* OrderCell.xib */; };
+		DF31AE261C2823880062424F /* OrderSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31AE241C2823880062424F /* OrderSectionCell.m */; };
+		DF31AE271C2823880062424F /* OrderSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF31AE251C2823880062424F /* OrderSectionCell.xib */; };
+		DF31AE2A1C28272B0062424F /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31AE291C28272B0062424F /* MyViewController.m */; };
+		DF31AE2E1C2827450062424F /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31AE2C1C2827450062424F /* MyTableViewCell.m */; };
+		DF31AE2F1C2827450062424F /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF31AE2D1C2827450062424F /* MyTableViewCell.xib */; };
+		DF743DDD1C2E98B4004CABE8 /* EntertainmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF743DDC1C2E98B3004CABE8 /* EntertainmentVC.m */; };
+		DF743DE11C2E99FF004CABE8 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF743DDF1C2E99FF004CABE8 /* TableViewCell.m */; };
+		DF743DE21C2E99FF004CABE8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF743DE01C2E99FF004CABE8 /* TableViewCell.xib */; };
+		DF85DE6B1C3129C20036A42E /* SetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF85DE671C3129C20036A42E /* SetCell.m */; };
+		DF85DE6C1C3129C20036A42E /* SetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF85DE681C3129C20036A42E /* SetCell.xib */; };
+		DF85DE6D1C3129C20036A42E /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF85DE6A1C3129C20036A42E /* SettingVC.m */; };
+		DF85DE7E1C3129E30036A42E /* AddressPayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF85DE6F1C3129E30036A42E /* AddressPayCell.m */; };
+		DF85DE7F1C3129E30036A42E /* AddressPayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF85DE701C3129E30036A42E /* AddressPayCell.xib */; };
+		DF85DE801C3129E30036A42E /* GoodsPayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF85DE721C3129E30036A42E /* GoodsPayCell.m */; };
+		DF85DE811C3129E30036A42E /* GoodsPayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF85DE731C3129E30036A42E /* GoodsPayCell.xib */; };
+		DF85DE821C3129E30036A42E /* HowToPayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF85DE751C3129E30036A42E /* HowToPayCell.m */; };
+		DF85DE831C3129E30036A42E /* HowToPayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF85DE761C3129E30036A42E /* HowToPayCell.xib */; };
+		DF85DE851C3129E30036A42E /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF85DE7A1C3129E30036A42E /* PayViewController.m */; };
+		DF85DE861C3129E30036A42E /* PricePayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF85DE7C1C3129E30036A42E /* PricePayCell.m */; };
+		DF85DE871C3129E30036A42E /* PricePayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF85DE7D1C3129E30036A42E /* PricePayCell.xib */; };
+		DF8DC27A1C2A874200C68643 /* CommentsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8DC2781C2A874200C68643 /* CommentsCell.m */; };
+		DF8DC27B1C2A874200C68643 /* CommentsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8DC2791C2A874200C68643 /* CommentsCell.xib */; };
+		DF8DC2891C2A9D0E00C68643 /* ShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8DC2871C2A9D0E00C68643 /* ShopCell.m */; };
+		DF8DC28A1C2A9D0E00C68643 /* ShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8DC2881C2A9D0E00C68643 /* ShopCell.xib */; };
+		DF9E8C7F1C2B90EC00C7F0EE /* AddressEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8C7E1C2B90EC00C7F0EE /* AddressEditVC.m */; };
+		DF9E8C831C2B974300C7F0EE /* MyCollectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8C821C2B974300C7F0EE /* MyCollectVC.m */; };
+		DF9E8C871C2B9B3C00C7F0EE /* HelpsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8C861C2B9B3C00C7F0EE /* HelpsVC.m */; };
+		DF9E8C8A1C2B9D4900C7F0EE /* FoodDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8C891C2B9D4900C7F0EE /* FoodDetailsVC.m */; };
+		DF9E8C8F1C2B9E7300C7F0EE /* FoodDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8C8D1C2B9E7300C7F0EE /* FoodDetailsCell.m */; };
+		DF9E8C901C2B9E7300C7F0EE /* FoodDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9E8C8E1C2B9E7300C7F0EE /* FoodDetailsCell.xib */; };
+		DF9E8C941C2BC58000C7F0EE /* OrderSendMesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8C921C2BC58000C7F0EE /* OrderSendMesCell.m */; };
+		DF9E8C951C2BC58000C7F0EE /* OrderSendMesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9E8C931C2BC58000C7F0EE /* OrderSendMesCell.xib */; };
+		DF9E8C9D1C2BCE4800C7F0EE /* AddNewAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8C9C1C2BCE4800C7F0EE /* AddNewAddressVC.m */; };
+		DF9E8CA11C2BCFD100C7F0EE /* AddOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8C9F1C2BCFD100C7F0EE /* AddOneCell.m */; };
+		DF9E8CA21C2BCFD100C7F0EE /* AddOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9E8CA01C2BCFD100C7F0EE /* AddOneCell.xib */; };
+		DF9E8CA61C2BDB5B00C7F0EE /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8CA51C2BDB5B00C7F0EE /* LoginVC.m */; };
+		DF9E8CA91C2BDB6C00C7F0EE /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E8CA81C2BDB6C00C7F0EE /* RegisterVC.m */; };
+		DFB74CA41C2ACC3F0063DEBF /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB74CA31C2ACC3F0063DEBF /* OrderDetailViewController.m */; };
+		DFD4DA371C2ACEDA003A5119 /* OrderDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD4DA351C2ACEDA003A5119 /* OrderDetailCell.m */; };
+		DFD4DA381C2ACEDA003A5119 /* OrderDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD4DA361C2ACEDA003A5119 /* OrderDetailCell.xib */; };
+		DFD4DA3C1C2AD548003A5119 /* OrderTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD4DA3A1C2AD548003A5119 /* OrderTwoCell.m */; };
+		DFD4DA3D1C2AD548003A5119 /* OrderTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD4DA3B1C2AD548003A5119 /* OrderTwoCell.xib */; };
+		DFD4DA411C2AE1B2003A5119 /* OrderThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD4DA3F1C2AE1B2003A5119 /* OrderThreeCell.m */; };
+		DFD4DA421C2AE1B2003A5119 /* OrderThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD4DA401C2AE1B2003A5119 /* OrderThreeCell.xib */; };
+		DFF0CEA41C7BF868005AF42E /* AppIcon58x58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF0CEA11C7BF868005AF42E /* AppIcon58x58@2x.png */; };
+		DFF0CEA51C7BF868005AF42E /* AppIcon80x80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF0CEA21C7BF868005AF42E /* AppIcon80x80@2x.png */; };
+		DFF0CEA61C7BF868005AF42E /* AppIcon120x120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF0CEA31C7BF868005AF42E /* AppIcon120x120@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF31ADD51C27F4C80062424F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF31ADB01C27F4C80062424F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF31ADB71C27F4C80062424F;
+			remoteInfo = ZGSTApp;
+		};
+		DF31ADE01C27F4C80062424F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF31ADB01C27F4C80062424F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF31ADB71C27F4C80062424F;
+			remoteInfo = ZGSTApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0507E3021CE6B7D800F9EAC6 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		0507E3031CE6B7D800F9EAC6 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		0507E3041CE6B7D800F9EAC6 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		0507E3051CE6B7D800F9EAC6 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		0507E3061CE6B7D800F9EAC6 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		0507E3071CE6B7D800F9EAC6 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		0507E3081CE6B7D800F9EAC6 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		0507E3091CE6B7D800F9EAC6 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		0507E30A1CE6B7D800F9EAC6 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		0507E30B1CE6B7D800F9EAC6 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		0507E30C1CE6B7D800F9EAC6 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		0507E30D1CE6B7D800F9EAC6 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		0507E30E1CE6B7D800F9EAC6 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		0507E30F1CE6B7D800F9EAC6 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		3320962372F49B31D03536AE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6337E663D71C912C3AA90FB2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CEF893C0870763BFA2E2E19B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0866621C3A6A8D0077DF5A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DF0866641C3A6AF80077DF5A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DF0866661C3A6B340077DF5A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DF0866681C3A6B400077DF5A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DF08666A1C3A9E330077DF5A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		DF08666B1C3A9E330077DF5A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		DF08666C1C3A9E330077DF5A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		DF0866721C3A9ED70077DF5A /* SendMsgToWeChatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendMsgToWeChatVC.h; path = ../SendMsgToWeChatVC.h; sourceTree = "<group>"; };
+		DF0866731C3A9ED70077DF5A /* SendMsgToWeChatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendMsgToWeChatVC.m; path = ../SendMsgToWeChatVC.m; sourceTree = "<group>"; };
+		DF08AE311C28FF1600046465 /* SecondListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondListViewController.h; sourceTree = "<group>"; };
+		DF08AE321C28FF1600046465 /* SecondListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondListViewController.m; sourceTree = "<group>"; };
+		DF08AE341C29319000046465 /* SellerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellerViewController.h; sourceTree = "<group>"; };
+		DF08AE351C29319000046465 /* SellerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellerViewController.m; sourceTree = "<group>"; };
+		DF08AE371C293CDA00046465 /* FoodShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodShowCell.h; sourceTree = "<group>"; };
+		DF08AE381C293CDA00046465 /* FoodShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodShowCell.m; sourceTree = "<group>"; };
+		DF08AE391C293CDA00046465 /* FoodShowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodShowCell.xib; sourceTree = "<group>"; };
+		DF16D6D61C30C928008B973A /* WebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewVC.h; sourceTree = "<group>"; };
+		DF16D6D71C30C928008B973A /* WebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewVC.m; sourceTree = "<group>"; };
+		DF16D6D91C30D9FB008B973A /* JoinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinVC.h; sourceTree = "<group>"; };
+		DF16D6DA1C30D9FB008B973A /* JoinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinVC.m; sourceTree = "<group>"; };
+		DF2DD82B1C2A3187003F8CD9 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		DF2DD82C1C2A3187003F8CD9 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		DF2DD82D1C2A3187003F8CD9 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		DF2DD82E1C2A3188003F8CD9 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		DF2DD82F1C2A3188003F8CD9 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		DF2DD8301C2A3188003F8CD9 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		DF2DD8311C2A3188003F8CD9 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		DF31ADB81C27F4C80062424F /* ZGSTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGSTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF31ADBC1C27F4C80062424F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF31ADBE1C27F4C80062424F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF31ADBF1C27F4C80062424F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF31ADC51C27F4C80062424F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF31ADC81C27F4C80062424F /* ZGSTApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZGSTApp.xcdatamodel; sourceTree = "<group>"; };
+		DF31ADCD1C27F4C80062424F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF31ADCF1C27F4C80062424F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF31ADD41C27F4C80062424F /* ZGSTAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGSTAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF31ADD81C27F4C80062424F /* ZGSTAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGSTAppTests.m; sourceTree = "<group>"; };
+		DF31ADDA1C27F4C80062424F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF31ADDF1C27F4C80062424F /* ZGSTAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGSTAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF31ADE31C27F4C80062424F /* ZGSTAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGSTAppUITests.m; sourceTree = "<group>"; };
+		DF31ADE51C27F4C80062424F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF31ADF11C27F63D0062424F /* ZGSTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGSTController.h; sourceTree = "<group>"; };
+		DF31ADF21C27F63D0062424F /* ZGSTController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGSTController.m; sourceTree = "<group>"; };
+		DF31ADF41C27F9310062424F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DF31ADF51C27F9310062424F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DF31ADFD1C27F95F0062424F /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		DF31ADFE1C27F95F0062424F /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		DF31AE061C27FC4E0062424F /* ZgstPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZgstPch.pch; sourceTree = "<group>"; };
+		DF31AE071C2811140062424F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF31AE091C2813880062424F /* NearbySellerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbySellerCell.h; sourceTree = "<group>"; };
+		DF31AE0A1C2813880062424F /* NearbySellerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbySellerCell.m; sourceTree = "<group>"; };
+		DF31AE0B1C2813880062424F /* NearbySellerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearbySellerCell.xib; sourceTree = "<group>"; };
+		DF31AE0E1C281AC20062424F /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		DF31AE0F1C281AC20062424F /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		DF31AE111C2822740062424F /* OrderForGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderForGoodViewController.h; sourceTree = "<group>"; };
+		DF31AE121C2822740062424F /* OrderForGoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderForGoodViewController.m; sourceTree = "<group>"; };
+		DF31AE1E1C2823710062424F /* OrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
+		DF31AE1F1C2823710062424F /* OrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCell.m; sourceTree = "<group>"; };
+		DF31AE201C2823710062424F /* OrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		DF31AE231C2823880062424F /* OrderSectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderSectionCell.h; sourceTree = "<group>"; };
+		DF31AE241C2823880062424F /* OrderSectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderSectionCell.m; sourceTree = "<group>"; };
+		DF31AE251C2823880062424F /* OrderSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderSectionCell.xib; sourceTree = "<group>"; };
+		DF31AE281C28272B0062424F /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		DF31AE291C28272B0062424F /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		DF31AE2B1C2827450062424F /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		DF31AE2C1C2827450062424F /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		DF31AE2D1C2827450062424F /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		DF743DDB1C2E98B3004CABE8 /* EntertainmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntertainmentVC.h; sourceTree = "<group>"; };
+		DF743DDC1C2E98B3004CABE8 /* EntertainmentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntertainmentVC.m; sourceTree = "<group>"; };
+		DF743DDE1C2E99FF004CABE8 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		DF743DDF1C2E99FF004CABE8 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		DF743DE01C2E99FF004CABE8 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		DF85DE661C3129C20036A42E /* SetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCell.h; sourceTree = "<group>"; };
+		DF85DE671C3129C20036A42E /* SetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCell.m; sourceTree = "<group>"; };
+		DF85DE681C3129C20036A42E /* SetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetCell.xib; sourceTree = "<group>"; };
+		DF85DE691C3129C20036A42E /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		DF85DE6A1C3129C20036A42E /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
+		DF85DE6E1C3129E30036A42E /* AddressPayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPayCell.h; sourceTree = "<group>"; };
+		DF85DE6F1C3129E30036A42E /* AddressPayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPayCell.m; sourceTree = "<group>"; };
+		DF85DE701C3129E30036A42E /* AddressPayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressPayCell.xib; sourceTree = "<group>"; };
+		DF85DE711C3129E30036A42E /* GoodsPayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsPayCell.h; sourceTree = "<group>"; };
+		DF85DE721C3129E30036A42E /* GoodsPayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsPayCell.m; sourceTree = "<group>"; };
+		DF85DE731C3129E30036A42E /* GoodsPayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsPayCell.xib; sourceTree = "<group>"; };
+		DF85DE741C3129E30036A42E /* HowToPayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowToPayCell.h; sourceTree = "<group>"; };
+		DF85DE751C3129E30036A42E /* HowToPayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowToPayCell.m; sourceTree = "<group>"; };
+		DF85DE761C3129E30036A42E /* HowToPayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HowToPayCell.xib; sourceTree = "<group>"; };
+		DF85DE791C3129E30036A42E /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		DF85DE7A1C3129E30036A42E /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		DF85DE7B1C3129E30036A42E /* PricePayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PricePayCell.h; sourceTree = "<group>"; };
+		DF85DE7C1C3129E30036A42E /* PricePayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PricePayCell.m; sourceTree = "<group>"; };
+		DF85DE7D1C3129E30036A42E /* PricePayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PricePayCell.xib; sourceTree = "<group>"; };
+		DF8DC2771C2A874200C68643 /* CommentsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsCell.h; sourceTree = "<group>"; };
+		DF8DC2781C2A874200C68643 /* CommentsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsCell.m; sourceTree = "<group>"; };
+		DF8DC2791C2A874200C68643 /* CommentsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentsCell.xib; sourceTree = "<group>"; };
+		DF8DC2861C2A9D0E00C68643 /* ShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCell.h; sourceTree = "<group>"; };
+		DF8DC2871C2A9D0E00C68643 /* ShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCell.m; sourceTree = "<group>"; };
+		DF8DC2881C2A9D0E00C68643 /* ShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCell.xib; sourceTree = "<group>"; };
+		DF9E8C7D1C2B90EC00C7F0EE /* AddressEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressEditVC.h; sourceTree = "<group>"; };
+		DF9E8C7E1C2B90EC00C7F0EE /* AddressEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressEditVC.m; sourceTree = "<group>"; };
+		DF9E8C811C2B974300C7F0EE /* MyCollectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectVC.h; sourceTree = "<group>"; };
+		DF9E8C821C2B974300C7F0EE /* MyCollectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectVC.m; sourceTree = "<group>"; };
+		DF9E8C851C2B9B3C00C7F0EE /* HelpsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpsVC.h; sourceTree = "<group>"; };
+		DF9E8C861C2B9B3C00C7F0EE /* HelpsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpsVC.m; sourceTree = "<group>"; };
+		DF9E8C881C2B9D4900C7F0EE /* FoodDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailsVC.h; sourceTree = "<group>"; };
+		DF9E8C891C2B9D4900C7F0EE /* FoodDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailsVC.m; sourceTree = "<group>"; };
+		DF9E8C8C1C2B9E7300C7F0EE /* FoodDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailsCell.h; sourceTree = "<group>"; };
+		DF9E8C8D1C2B9E7300C7F0EE /* FoodDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailsCell.m; sourceTree = "<group>"; };
+		DF9E8C8E1C2B9E7300C7F0EE /* FoodDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDetailsCell.xib; sourceTree = "<group>"; };
+		DF9E8C911C2BC58000C7F0EE /* OrderSendMesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderSendMesCell.h; sourceTree = "<group>"; };
+		DF9E8C921C2BC58000C7F0EE /* OrderSendMesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderSendMesCell.m; sourceTree = "<group>"; };
+		DF9E8C931C2BC58000C7F0EE /* OrderSendMesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderSendMesCell.xib; sourceTree = "<group>"; };
+		DF9E8C9B1C2BCE4800C7F0EE /* AddNewAddressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewAddressVC.h; sourceTree = "<group>"; };
+		DF9E8C9C1C2BCE4800C7F0EE /* AddNewAddressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewAddressVC.m; sourceTree = "<group>"; };
+		DF9E8C9E1C2BCFD100C7F0EE /* AddOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOneCell.h; sourceTree = "<group>"; };
+		DF9E8C9F1C2BCFD100C7F0EE /* AddOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOneCell.m; sourceTree = "<group>"; };
+		DF9E8CA01C2BCFD100C7F0EE /* AddOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddOneCell.xib; sourceTree = "<group>"; };
+		DF9E8CA41C2BDB5B00C7F0EE /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		DF9E8CA51C2BDB5B00C7F0EE /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		DF9E8CA71C2BDB6C00C7F0EE /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		DF9E8CA81C2BDB6C00C7F0EE /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		DFB74CA21C2ACC3F0063DEBF /* OrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailViewController.h; sourceTree = "<group>"; };
+		DFB74CA31C2ACC3F0063DEBF /* OrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailViewController.m; sourceTree = "<group>"; };
+		DFD4DA341C2ACEDA003A5119 /* OrderDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailCell.h; sourceTree = "<group>"; };
+		DFD4DA351C2ACEDA003A5119 /* OrderDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailCell.m; sourceTree = "<group>"; };
+		DFD4DA361C2ACEDA003A5119 /* OrderDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderDetailCell.xib; sourceTree = "<group>"; };
+		DFD4DA391C2AD548003A5119 /* OrderTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTwoCell.h; sourceTree = "<group>"; };
+		DFD4DA3A1C2AD548003A5119 /* OrderTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTwoCell.m; sourceTree = "<group>"; };
+		DFD4DA3B1C2AD548003A5119 /* OrderTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTwoCell.xib; sourceTree = "<group>"; };
+		DFD4DA3E1C2AE1B2003A5119 /* OrderThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderThreeCell.h; sourceTree = "<group>"; };
+		DFD4DA3F1C2AE1B2003A5119 /* OrderThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderThreeCell.m; sourceTree = "<group>"; };
+		DFD4DA401C2AE1B2003A5119 /* OrderThreeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderThreeCell.xib; sourceTree = "<group>"; };
+		DFF0CEA11C7BF868005AF42E /* AppIcon58x58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon58x58@2x.png"; sourceTree = "<group>"; };
+		DFF0CEA21C7BF868005AF42E /* AppIcon80x80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon80x80@2x.png"; sourceTree = "<group>"; };
+		DFF0CEA31C7BF868005AF42E /* AppIcon120x120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon120x120@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF31ADB51C27F4C80062424F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0866631C3A6A8D0077DF5A /* SystemConfiguration.framework in Frameworks */,
+				DF0866691C3A6B400077DF5A /* libc++.tbd in Frameworks */,
+				DF0866671C3A6B340077DF5A /* libsqlite3.0.tbd in Frameworks */,
+				DF08666E1C3A9E330077DF5A /* libWeChatSDK.a in Frameworks */,
+				DF0866651C3A6AF80077DF5A /* libz.tbd in Frameworks */,
+				7D2D0FD67D08EFF3CE80D74F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF31ADD11C27F4C80062424F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF31ADDC1C27F4C80062424F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0507E3001CE6B7D800F9EAC6 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0507E3011CE6B7D800F9EAC6 /* PageControl */,
+				0507E30A1CE6B7D800F9EAC6 /* SDCollectionViewCell.h */,
+				0507E30B1CE6B7D800F9EAC6 /* SDCollectionViewCell.m */,
+				0507E30C1CE6B7D800F9EAC6 /* SDCycleScrollView.h */,
+				0507E30D1CE6B7D800F9EAC6 /* SDCycleScrollView.m */,
+				0507E30E1CE6B7D800F9EAC6 /* UIView+SDExtension.h */,
+				0507E30F1CE6B7D800F9EAC6 /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		0507E3011CE6B7D800F9EAC6 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				0507E3021CE6B7D800F9EAC6 /* TAAbstractDotView.h */,
+				0507E3031CE6B7D800F9EAC6 /* TAAbstractDotView.m */,
+				0507E3041CE6B7D800F9EAC6 /* TAAnimatedDotView.h */,
+				0507E3051CE6B7D800F9EAC6 /* TAAnimatedDotView.m */,
+				0507E3061CE6B7D800F9EAC6 /* TADotView.h */,
+				0507E3071CE6B7D800F9EAC6 /* TADotView.m */,
+				0507E3081CE6B7D800F9EAC6 /* TAPageControl.h */,
+				0507E3091CE6B7D800F9EAC6 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		39739146941A2EB1CFC0AF31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF0866681C3A6B400077DF5A /* libc++.tbd */,
+				DF0866661C3A6B340077DF5A /* libsqlite3.0.tbd */,
+				DF0866641C3A6AF80077DF5A /* libz.tbd */,
+				DF0866621C3A6A8D0077DF5A /* SystemConfiguration.framework */,
+				CEF893C0870763BFA2E2E19B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D80E772FFAEB469F57BA4A04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6337E663D71C912C3AA90FB2 /* Pods.debug.xcconfig */,
+				3320962372F49B31D03536AE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF08666D1C3A9E330077DF5A /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DF0866721C3A9ED70077DF5A /* SendMsgToWeChatVC.h */,
+				DF0866731C3A9ED70077DF5A /* SendMsgToWeChatVC.m */,
+				DF08666A1C3A9E330077DF5A /* libWeChatSDK.a */,
+				DF08666B1C3A9E330077DF5A /* WXApi.h */,
+				DF08666C1C3A9E330077DF5A /* WXApiObject.h */,
+			);
+			name = WeChatSDK;
+			path = wechatSDK;
+			sourceTree = "<group>";
+		};
+		DF08AE2F1C28FEBB00046465 /* NaviView */ = {
+			isa = PBXGroup;
+			children = (
+				DF31AE0E1C281AC20062424F /* SearchViewController.h */,
+				DF31AE0F1C281AC20062424F /* SearchViewController.m */,
+			);
+			name = NaviView;
+			sourceTree = "<group>";
+		};
+		DF08AE301C28FECC00046465 /* SecondList */ = {
+			isa = PBXGroup;
+			children = (
+				DF08AE311C28FF1600046465 /* SecondListViewController.h */,
+				DF08AE321C28FF1600046465 /* SecondListViewController.m */,
+			);
+			name = SecondList;
+			sourceTree = "<group>";
+		};
+		DF2DD8361C2A318F003F8CD9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DD82B1C2A3187003F8CD9 /* MessageViewController.h */,
+				DF2DD82C1C2A3187003F8CD9 /* MessageViewController.m */,
+				DF2DD82D1C2A3187003F8CD9 /* ChatViewController.h */,
+				DF2DD82E1C2A3188003F8CD9 /* ChatViewController.m */,
+				DF2DD82F1C2A3188003F8CD9 /* MessageCell.h */,
+				DF2DD8301C2A3188003F8CD9 /* MessageCell.m */,
+				DF2DD8311C2A3188003F8CD9 /* MessageCell.xib */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		DF31ADAF1C27F4C80062424F = {
+			isa = PBXGroup;
+			children = (
+				DF31ADBA1C27F4C80062424F /* ZGSTApp */,
+				DF31ADD71C27F4C80062424F /* ZGSTAppTests */,
+				DF31ADE21C27F4C80062424F /* ZGSTAppUITests */,
+				DF31ADB91C27F4C80062424F /* Products */,
+				D80E772FFAEB469F57BA4A04 /* Pods */,
+				39739146941A2EB1CFC0AF31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF31ADB91C27F4C80062424F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF31ADB81C27F4C80062424F /* ZGSTApp.app */,
+				DF31ADD41C27F4C80062424F /* ZGSTAppTests.xctest */,
+				DF31ADDF1C27F4C80062424F /* ZGSTAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF31ADBA1C27F4C80062424F /* ZGSTApp */ = {
+			isa = PBXGroup;
+			children = (
+				DF08666D1C3A9E330077DF5A /* WeChatSDK */,
+				DF31ADC41C27F4C80062424F /* Main.storyboard */,
+				DF31ADCC1C27F4C80062424F /* LaunchScreen.storyboard */,
+				DF31ADBE1C27F4C80062424F /* AppDelegate.h */,
+				DF31ADBF1C27F4C80062424F /* AppDelegate.m */,
+				DF31ADF11C27F63D0062424F /* ZGSTController.h */,
+				DF31ADF21C27F63D0062424F /* ZGSTController.m */,
+				DF31AE001C27F9660062424F /* Home */,
+				DF31AE011C27F96C0062424F /* Order */,
+				DF31AE021C27F9740062424F /* Mine */,
+				DF31AE031C27F97E0062424F /* More */,
+				DF31ADBB1C27F4C80062424F /* Supporting Files */,
+			);
+			path = ZGSTApp;
+			sourceTree = "<group>";
+		};
+		DF31ADBB1C27F4C80062424F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF31AE061C27FC4E0062424F /* ZgstPch.pch */,
+				DF31ADCF1C27F4C80062424F /* Info.plist */,
+				DF31ADC71C27F4C80062424F /* ZGSTApp.xcdatamodeld */,
+				DFF0CEA11C7BF868005AF42E /* AppIcon58x58@2x.png */,
+				DFF0CEA21C7BF868005AF42E /* AppIcon80x80@2x.png */,
+				DFF0CEA31C7BF868005AF42E /* AppIcon120x120@2x.png */,
+				DF31AE071C2811140062424F /* Assets.xcassets */,
+				DF31ADBC1C27F4C80062424F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF31ADD71C27F4C80062424F /* ZGSTAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF31ADD81C27F4C80062424F /* ZGSTAppTests.m */,
+				DF31ADDA1C27F4C80062424F /* Info.plist */,
+			);
+			path = ZGSTAppTests;
+			sourceTree = "<group>";
+		};
+		DF31ADE21C27F4C80062424F /* ZGSTAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF31ADE31C27F4C80062424F /* ZGSTAppUITests.m */,
+				DF31ADE51C27F4C80062424F /* Info.plist */,
+			);
+			path = ZGSTAppUITests;
+			sourceTree = "<group>";
+		};
+		DF31AE001C27F9660062424F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0507E3001CE6B7D800F9EAC6 /* SDCycleScrollView */,
+				DF31ADF41C27F9310062424F /* HomeViewController.h */,
+				DF31ADF51C27F9310062424F /* HomeViewController.m */,
+				DF31AE091C2813880062424F /* NearbySellerCell.h */,
+				DF31AE0A1C2813880062424F /* NearbySellerCell.m */,
+				DF31AE0B1C2813880062424F /* NearbySellerCell.xib */,
+				DF08AE2F1C28FEBB00046465 /* NaviView */,
+				DF08AE301C28FECC00046465 /* SecondList */,
+				DF9E8C8B1C2B9DCB00C7F0EE /* Seller */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DF31AE011C27F96C0062424F /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				DF31AE111C2822740062424F /* OrderForGoodViewController.h */,
+				DF31AE121C2822740062424F /* OrderForGoodViewController.m */,
+				DFD4DA331C2ACD7E003A5119 /* OrderDatails */,
+				DF31AE231C2823880062424F /* OrderSectionCell.h */,
+				DF31AE241C2823880062424F /* OrderSectionCell.m */,
+				DF31AE251C2823880062424F /* OrderSectionCell.xib */,
+				DF31AE1E1C2823710062424F /* OrderCell.h */,
+				DF31AE1F1C2823710062424F /* OrderCell.m */,
+				DF31AE201C2823710062424F /* OrderCell.xib */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		DF31AE021C27F9740062424F /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				DF31AE281C28272B0062424F /* MyViewController.h */,
+				DF31AE291C28272B0062424F /* MyViewController.m */,
+				DF9E8CAA1C2BDB7200C7F0EE /* Register */,
+				DF9E8CA31C2BDB3A00C7F0EE /* HelpAndRespond */,
+				DF9E8C841C2B9A8E00C7F0EE /* Collection */,
+				DF9E8C801C2B972600C7F0EE /* Address */,
+				DF85DE891C312BAC0036A42E /* Setting */,
+				DF2DD8361C2A318F003F8CD9 /* Message */,
+				DF31AE2B1C2827450062424F /* MyTableViewCell.h */,
+				DF31AE2C1C2827450062424F /* MyTableViewCell.m */,
+				DF31AE2D1C2827450062424F /* MyTableViewCell.xib */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		DF31AE031C27F97E0062424F /* More */ = {
+			isa = PBXGroup;
+			children = (
+				DF31ADFD1C27F95F0062424F /* MoreViewController.h */,
+				DF31ADFE1C27F95F0062424F /* MoreViewController.m */,
+				DF16D6D91C30D9FB008B973A /* JoinVC.h */,
+				DF16D6DA1C30D9FB008B973A /* JoinVC.m */,
+				DF743DDB1C2E98B3004CABE8 /* EntertainmentVC.h */,
+				DF743DDC1C2E98B3004CABE8 /* EntertainmentVC.m */,
+				DF16D6D61C30C928008B973A /* WebViewVC.h */,
+				DF16D6D71C30C928008B973A /* WebViewVC.m */,
+				DF743DDE1C2E99FF004CABE8 /* TableViewCell.h */,
+				DF743DDF1C2E99FF004CABE8 /* TableViewCell.m */,
+				DF743DE01C2E99FF004CABE8 /* TableViewCell.xib */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		DF85DE881C312B8E0036A42E /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				DF85DE791C3129E30036A42E /* PayViewController.h */,
+				DF85DE7A1C3129E30036A42E /* PayViewController.m */,
+				DF85DE6E1C3129E30036A42E /* AddressPayCell.h */,
+				DF85DE6F1C3129E30036A42E /* AddressPayCell.m */,
+				DF85DE701C3129E30036A42E /* AddressPayCell.xib */,
+				DF85DE711C3129E30036A42E /* GoodsPayCell.h */,
+				DF85DE721C3129E30036A42E /* GoodsPayCell.m */,
+				DF85DE731C3129E30036A42E /* GoodsPayCell.xib */,
+				DF85DE741C3129E30036A42E /* HowToPayCell.h */,
+				DF85DE751C3129E30036A42E /* HowToPayCell.m */,
+				DF85DE761C3129E30036A42E /* HowToPayCell.xib */,
+				DF85DE7B1C3129E30036A42E /* PricePayCell.h */,
+				DF85DE7C1C3129E30036A42E /* PricePayCell.m */,
+				DF85DE7D1C3129E30036A42E /* PricePayCell.xib */,
+			);
+			name = Pay;
+			sourceTree = "<group>";
+		};
+		DF85DE891C312BAC0036A42E /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				DF85DE691C3129C20036A42E /* SettingVC.h */,
+				DF85DE6A1C3129C20036A42E /* SettingVC.m */,
+				DF85DE661C3129C20036A42E /* SetCell.h */,
+				DF85DE671C3129C20036A42E /* SetCell.m */,
+				DF85DE681C3129C20036A42E /* SetCell.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		DF9E8C801C2B972600C7F0EE /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				DF9E8C7D1C2B90EC00C7F0EE /* AddressEditVC.h */,
+				DF9E8C7E1C2B90EC00C7F0EE /* AddressEditVC.m */,
+				DF9E8C9B1C2BCE4800C7F0EE /* AddNewAddressVC.h */,
+				DF9E8C9C1C2BCE4800C7F0EE /* AddNewAddressVC.m */,
+				DF9E8C9E1C2BCFD100C7F0EE /* AddOneCell.h */,
+				DF9E8C9F1C2BCFD100C7F0EE /* AddOneCell.m */,
+				DF9E8CA01C2BCFD100C7F0EE /* AddOneCell.xib */,
+			);
+			name = Address;
+			sourceTree = "<group>";
+		};
+		DF9E8C841C2B9A8E00C7F0EE /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				DF9E8C811C2B974300C7F0EE /* MyCollectVC.h */,
+				DF9E8C821C2B974300C7F0EE /* MyCollectVC.m */,
+			);
+			name = Collection;
+			sourceTree = "<group>";
+		};
+		DF9E8C8B1C2B9DCB00C7F0EE /* Seller */ = {
+			isa = PBXGroup;
+			children = (
+				DF08AE341C29319000046465 /* SellerViewController.h */,
+				DF08AE351C29319000046465 /* SellerViewController.m */,
+				DF9E8C881C2B9D4900C7F0EE /* FoodDetailsVC.h */,
+				DF9E8C891C2B9D4900C7F0EE /* FoodDetailsVC.m */,
+				DF9E8C8C1C2B9E7300C7F0EE /* FoodDetailsCell.h */,
+				DF9E8C8D1C2B9E7300C7F0EE /* FoodDetailsCell.m */,
+				DF9E8C8E1C2B9E7300C7F0EE /* FoodDetailsCell.xib */,
+				DF08AE371C293CDA00046465 /* FoodShowCell.h */,
+				DF08AE381C293CDA00046465 /* FoodShowCell.m */,
+				DF08AE391C293CDA00046465 /* FoodShowCell.xib */,
+				DF8DC2771C2A874200C68643 /* CommentsCell.h */,
+				DF8DC2781C2A874200C68643 /* CommentsCell.m */,
+				DF8DC2791C2A874200C68643 /* CommentsCell.xib */,
+				DF8DC2861C2A9D0E00C68643 /* ShopCell.h */,
+				DF8DC2871C2A9D0E00C68643 /* ShopCell.m */,
+				DF8DC2881C2A9D0E00C68643 /* ShopCell.xib */,
+				DF85DE881C312B8E0036A42E /* Pay */,
+			);
+			name = Seller;
+			sourceTree = "<group>";
+		};
+		DF9E8CA31C2BDB3A00C7F0EE /* HelpAndRespond */ = {
+			isa = PBXGroup;
+			children = (
+				DF9E8C851C2B9B3C00C7F0EE /* HelpsVC.h */,
+				DF9E8C861C2B9B3C00C7F0EE /* HelpsVC.m */,
+			);
+			name = HelpAndRespond;
+			sourceTree = "<group>";
+		};
+		DF9E8CAA1C2BDB7200C7F0EE /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				DF9E8CA41C2BDB5B00C7F0EE /* LoginVC.h */,
+				DF9E8CA51C2BDB5B00C7F0EE /* LoginVC.m */,
+				DF9E8CA71C2BDB6C00C7F0EE /* RegisterVC.h */,
+				DF9E8CA81C2BDB6C00C7F0EE /* RegisterVC.m */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		DFD4DA331C2ACD7E003A5119 /* OrderDatails */ = {
+			isa = PBXGroup;
+			children = (
+				DFB74CA21C2ACC3F0063DEBF /* OrderDetailViewController.h */,
+				DFB74CA31C2ACC3F0063DEBF /* OrderDetailViewController.m */,
+				DFD4DA341C2ACEDA003A5119 /* OrderDetailCell.h */,
+				DFD4DA351C2ACEDA003A5119 /* OrderDetailCell.m */,
+				DFD4DA361C2ACEDA003A5119 /* OrderDetailCell.xib */,
+				DFD4DA391C2AD548003A5119 /* OrderTwoCell.h */,
+				DFD4DA3A1C2AD548003A5119 /* OrderTwoCell.m */,
+				DFD4DA3B1C2AD548003A5119 /* OrderTwoCell.xib */,
+				DFD4DA3E1C2AE1B2003A5119 /* OrderThreeCell.h */,
+				DFD4DA3F1C2AE1B2003A5119 /* OrderThreeCell.m */,
+				DFD4DA401C2AE1B2003A5119 /* OrderThreeCell.xib */,
+				DF9E8C911C2BC58000C7F0EE /* OrderSendMesCell.h */,
+				DF9E8C921C2BC58000C7F0EE /* OrderSendMesCell.m */,
+				DF9E8C931C2BC58000C7F0EE /* OrderSendMesCell.xib */,
+			);
+			name = OrderDatails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF31ADB71C27F4C80062424F /* ZGSTApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF31ADE81C27F4C80062424F /* Build configuration list for PBXNativeTarget "ZGSTApp" */;
+			buildPhases = (
+				51EEAFB212AEFE43EC8A2810 /* Check Pods Manifest.lock */,
+				DF31ADB41C27F4C80062424F /* Sources */,
+				DF31ADB51C27F4C80062424F /* Frameworks */,
+				DF31ADB61C27F4C80062424F /* Resources */,
+				89CE9C0D6AD672DDEBDEF3C0 /* Embed Pods Frameworks */,
+				6863046608AF83C57E0591E0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGSTApp;
+			productName = ZGSTApp;
+			productReference = DF31ADB81C27F4C80062424F /* ZGSTApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF31ADD31C27F4C80062424F /* ZGSTAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF31ADEB1C27F4C80062424F /* Build configuration list for PBXNativeTarget "ZGSTAppTests" */;
+			buildPhases = (
+				DF31ADD01C27F4C80062424F /* Sources */,
+				DF31ADD11C27F4C80062424F /* Frameworks */,
+				DF31ADD21C27F4C80062424F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF31ADD61C27F4C80062424F /* PBXTargetDependency */,
+			);
+			name = ZGSTAppTests;
+			productName = ZGSTAppTests;
+			productReference = DF31ADD41C27F4C80062424F /* ZGSTAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF31ADDE1C27F4C80062424F /* ZGSTAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF31ADEE1C27F4C80062424F /* Build configuration list for PBXNativeTarget "ZGSTAppUITests" */;
+			buildPhases = (
+				DF31ADDB1C27F4C80062424F /* Sources */,
+				DF31ADDC1C27F4C80062424F /* Frameworks */,
+				DF31ADDD1C27F4C80062424F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF31ADE11C27F4C80062424F /* PBXTargetDependency */,
+			);
+			name = ZGSTAppUITests;
+			productName = ZGSTAppUITests;
+			productReference = DF31ADDF1C27F4C80062424F /* ZGSTAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF31ADB01C27F4C80062424F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fady;
+				TargetAttributes = {
+					DF31ADB71C27F4C80062424F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TKUT8WDNUP;
+					};
+					DF31ADD31C27F4C80062424F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TKUT8WDNUP;
+						TestTargetID = DF31ADB71C27F4C80062424F;
+					};
+					DF31ADDE1C27F4C80062424F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TKUT8WDNUP;
+						TestTargetID = DF31ADB71C27F4C80062424F;
+					};
+				};
+			};
+			buildConfigurationList = DF31ADB31C27F4C80062424F /* Build configuration list for PBXProject "ZGSTApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF31ADAF1C27F4C80062424F;
+			productRefGroup = DF31ADB91C27F4C80062424F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF31ADB71C27F4C80062424F /* ZGSTApp */,
+				DF31ADD31C27F4C80062424F /* ZGSTAppTests */,
+				DF31ADDE1C27F4C80062424F /* ZGSTAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF31ADB61C27F4C80062424F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF0CEA51C7BF868005AF42E /* AppIcon80x80@2x.png in Resources */,
+				DF9E8C951C2BC58000C7F0EE /* OrderSendMesCell.xib in Resources */,
+				DF31AE221C2823710062424F /* OrderCell.xib in Resources */,
+				DF9E8C901C2B9E7300C7F0EE /* FoodDetailsCell.xib in Resources */,
+				DFF0CEA61C7BF868005AF42E /* AppIcon120x120@2x.png in Resources */,
+				DF31ADCE1C27F4C80062424F /* LaunchScreen.storyboard in Resources */,
+				DF08AE3B1C293CDA00046465 /* FoodShowCell.xib in Resources */,
+				DF9E8CA21C2BCFD100C7F0EE /* AddOneCell.xib in Resources */,
+				DF85DE811C3129E30036A42E /* GoodsPayCell.xib in Resources */,
+				DF31AE0D1C2813880062424F /* NearbySellerCell.xib in Resources */,
+				DF8DC28A1C2A9D0E00C68643 /* ShopCell.xib in Resources */,
+				DFD4DA421C2AE1B2003A5119 /* OrderThreeCell.xib in Resources */,
+				DF2DD8351C2A3188003F8CD9 /* MessageCell.xib in Resources */,
+				DF8DC27B1C2A874200C68643 /* CommentsCell.xib in Resources */,
+				DF85DE7F1C3129E30036A42E /* AddressPayCell.xib in Resources */,
+				DF31AE081C2811140062424F /* Assets.xcassets in Resources */,
+				DF31AE271C2823880062424F /* OrderSectionCell.xib in Resources */,
+				DF743DE21C2E99FF004CABE8 /* TableViewCell.xib in Resources */,
+				DFD4DA381C2ACEDA003A5119 /* OrderDetailCell.xib in Resources */,
+				DF31AE2F1C2827450062424F /* MyTableViewCell.xib in Resources */,
+				DF85DE871C3129E30036A42E /* PricePayCell.xib in Resources */,
+				DF85DE6C1C3129C20036A42E /* SetCell.xib in Resources */,
+				DFF0CEA41C7BF868005AF42E /* AppIcon58x58@2x.png in Resources */,
+				DF31ADC61C27F4C80062424F /* Main.storyboard in Resources */,
+				DF85DE831C3129E30036A42E /* HowToPayCell.xib in Resources */,
+				DFD4DA3D1C2AD548003A5119 /* OrderTwoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF31ADD21C27F4C80062424F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF31ADDD1C27F4C80062424F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51EEAFB212AEFE43EC8A2810 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6863046608AF83C57E0591E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CE9C0D6AD672DDEBDEF3C0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF31ADB41C27F4C80062424F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF31AE161C2822740062424F /* OrderForGoodViewController.m in Sources */,
+				DF85DE7E1C3129E30036A42E /* AddressPayCell.m in Sources */,
+				DF9E8CA11C2BCFD100C7F0EE /* AddOneCell.m in Sources */,
+				DF31AE0C1C2813880062424F /* NearbySellerCell.m in Sources */,
+				DF743DDD1C2E98B4004CABE8 /* EntertainmentVC.m in Sources */,
+				DFD4DA371C2ACEDA003A5119 /* OrderDetailCell.m in Sources */,
+				DF8DC2891C2A9D0E00C68643 /* ShopCell.m in Sources */,
+				DF0866741C3A9ED70077DF5A /* SendMsgToWeChatVC.m in Sources */,
+				DF2DD8331C2A3188003F8CD9 /* ChatViewController.m in Sources */,
+				DF743DE11C2E99FF004CABE8 /* TableViewCell.m in Sources */,
+				DF85DE6B1C3129C20036A42E /* SetCell.m in Sources */,
+				0507E3131CE6B7D800F9EAC6 /* TAPageControl.m in Sources */,
+				DF9E8CA91C2BDB6C00C7F0EE /* RegisterVC.m in Sources */,
+				DF08AE3A1C293CDA00046465 /* FoodShowCell.m in Sources */,
+				DF31AE261C2823880062424F /* OrderSectionCell.m in Sources */,
+				DF9E8CA61C2BDB5B00C7F0EE /* LoginVC.m in Sources */,
+				DF31ADC91C27F4C80062424F /* ZGSTApp.xcdatamodeld in Sources */,
+				DF31AE101C281AC20062424F /* SearchViewController.m in Sources */,
+				DF16D6DB1C30D9FB008B973A /* JoinVC.m in Sources */,
+				0507E3141CE6B7D800F9EAC6 /* SDCollectionViewCell.m in Sources */,
+				DF31ADFF1C27F95F0062424F /* MoreViewController.m in Sources */,
+				DF9E8C9D1C2BCE4800C7F0EE /* AddNewAddressVC.m in Sources */,
+				DF31AE2A1C28272B0062424F /* MyViewController.m in Sources */,
+				DF2DD8321C2A3188003F8CD9 /* MessageViewController.m in Sources */,
+				DF85DE6D1C3129C20036A42E /* SettingVC.m in Sources */,
+				DF2DD8341C2A3188003F8CD9 /* MessageCell.m in Sources */,
+				DF8DC27A1C2A874200C68643 /* CommentsCell.m in Sources */,
+				0507E3101CE6B7D800F9EAC6 /* TAAbstractDotView.m in Sources */,
+				DF31ADF31C27F63D0062424F /* ZGSTController.m in Sources */,
+				DF9E8C8A1C2B9D4900C7F0EE /* FoodDetailsVC.m in Sources */,
+				DF08AE331C28FF1600046465 /* SecondListViewController.m in Sources */,
+				0507E3161CE6B7D800F9EAC6 /* UIView+SDExtension.m in Sources */,
+				DF31ADC01C27F4C80062424F /* AppDelegate.m in Sources */,
+				DF9E8C941C2BC58000C7F0EE /* OrderSendMesCell.m in Sources */,
+				DF31AE2E1C2827450062424F /* MyTableViewCell.m in Sources */,
+				0507E3151CE6B7D800F9EAC6 /* SDCycleScrollView.m in Sources */,
+				DF31ADF61C27F9310062424F /* HomeViewController.m in Sources */,
+				DF9E8C7F1C2B90EC00C7F0EE /* AddressEditVC.m in Sources */,
+				DF85DE821C3129E30036A42E /* HowToPayCell.m in Sources */,
+				DF9E8C871C2B9B3C00C7F0EE /* HelpsVC.m in Sources */,
+				DF16D6D81C30C928008B973A /* WebViewVC.m in Sources */,
+				DFB74CA41C2ACC3F0063DEBF /* OrderDetailViewController.m in Sources */,
+				DF85DE851C3129E30036A42E /* PayViewController.m in Sources */,
+				DF31AE211C2823710062424F /* OrderCell.m in Sources */,
+				DFD4DA3C1C2AD548003A5119 /* OrderTwoCell.m in Sources */,
+				DF9E8C831C2B974300C7F0EE /* MyCollectVC.m in Sources */,
+				DF08AE361C29319000046465 /* SellerViewController.m in Sources */,
+				0507E3111CE6B7D800F9EAC6 /* TAAnimatedDotView.m in Sources */,
+				DF85DE801C3129E30036A42E /* GoodsPayCell.m in Sources */,
+				DF31ADBD1C27F4C80062424F /* main.m in Sources */,
+				DF9E8C8F1C2B9E7300C7F0EE /* FoodDetailsCell.m in Sources */,
+				DFD4DA411C2AE1B2003A5119 /* OrderThreeCell.m in Sources */,
+				DF85DE861C3129E30036A42E /* PricePayCell.m in Sources */,
+				0507E3121CE6B7D800F9EAC6 /* TADotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF31ADD01C27F4C80062424F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF31ADD91C27F4C80062424F /* ZGSTAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF31ADDB1C27F4C80062424F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF31ADE41C27F4C80062424F /* ZGSTAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF31ADD61C27F4C80062424F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF31ADB71C27F4C80062424F /* ZGSTApp */;
+			targetProxy = DF31ADD51C27F4C80062424F /* PBXContainerItemProxy */;
+		};
+		DF31ADE11C27F4C80062424F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF31ADB71C27F4C80062424F /* ZGSTApp */;
+			targetProxy = DF31ADE01C27F4C80062424F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF31ADC41C27F4C80062424F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF31ADC51C27F4C80062424F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF31ADCC1C27F4C80062424F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF31ADCD1C27F4C80062424F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF31ADE61C27F4C80062424F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF31ADE71C27F4C80062424F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF31ADE91C27F4C80062424F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6337E663D71C912C3AA90FB2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGSTApp/ZgstPch.pch";
+				INFOPLIST_FILE = ZGSTApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZGSTApp/wechatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allapp.ZGSTApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF31ADEA1C27F4C80062424F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3320962372F49B31D03536AE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGSTApp/ZgstPch.pch";
+				INFOPLIST_FILE = ZGSTApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZGSTApp/wechatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allapp.ZGSTApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF31ADEC1C27F4C80062424F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGSTAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keane.ZGSTAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGSTApp.app/ZGSTApp";
+			};
+			name = Debug;
+		};
+		DF31ADED1C27F4C80062424F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGSTAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keane.ZGSTAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGSTApp.app/ZGSTApp";
+			};
+			name = Release;
+		};
+		DF31ADEF1C27F4C80062424F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGSTAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keane.ZGSTAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGSTApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DF31ADF01C27F4C80062424F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGSTAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keane.ZGSTAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGSTApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF31ADB31C27F4C80062424F /* Build configuration list for PBXProject "ZGSTApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF31ADE61C27F4C80062424F /* Debug */,
+				DF31ADE71C27F4C80062424F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF31ADE81C27F4C80062424F /* Build configuration list for PBXNativeTarget "ZGSTApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF31ADE91C27F4C80062424F /* Debug */,
+				DF31ADEA1C27F4C80062424F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF31ADEB1C27F4C80062424F /* Build configuration list for PBXNativeTarget "ZGSTAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF31ADEC1C27F4C80062424F /* Debug */,
+				DF31ADED1C27F4C80062424F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF31ADEE1C27F4C80062424F /* Build configuration list for PBXNativeTarget "ZGSTAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF31ADEF1C27F4C80062424F /* Debug */,
+				DF31ADF01C27F4C80062424F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF31ADC71C27F4C80062424F /* ZGSTApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF31ADC81C27F4C80062424F /* ZGSTApp.xcdatamodel */,
+			);
+			currentVersion = DF31ADC81C27F4C80062424F /* ZGSTApp.xcdatamodel */;
+			path = ZGSTApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF31ADB01C27F4C80062424F /* Project object */;
+}
